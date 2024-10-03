@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    background-color: #242424;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+header {
+    background-color: #192d64;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+ 
+h1 {
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+h2{
+    margin: 10px;
+    text-align: justify;
+    font-family: "Fredoka", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px; /* Aumenta o espaço entre o H1 e o menu */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Aumenta o espaço entre os links do menu */
+}
+
+nav ul li a {
+    font-family: "Fredoka", sans-serif;
+    color: #FFD700; /* Muda a cor dos links para dourado */
+    text-decoration: none;
+}
+
+.intro {
+    margin: 20px 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+ 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+ 
+.card {
+    width: 435px;
+    height: 500px;
+    background-color: #05283b;
+    color: #ffffff;
+    border: 1px solid #004d77;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 400px;       
+    height: 300px;     
+    border-radius: 10px; 
+    object-fit: cover;   
+}
+
+footer {
+    background-color: #192d64;
+    font-family: "Fredoka", sans-serif;
+    color: #e9c600;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+}
